@@ -8,8 +8,14 @@
 	<link rel="stylesheet/less" type="text/css" href="./less/styles.less" />
 	<script src="//cdn.jsdelivr.net/npm/less@3.13"></script>
 </head>
-
 <body>
+<?php require_once './modules/header.php' ?>
+
+
+
+	<?php require_once './modules/services.php' ?>
+	<?php require_once './modules/testimonials.php' ?>
+	<?php require_once './modules/footer.php' ?>
 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
 		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
