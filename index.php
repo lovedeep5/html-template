@@ -8,10 +8,10 @@
 	<link rel="stylesheet/less" type="text/css" href="./less/styles.less" />
 	<script src="//cdn.jsdelivr.net/npm/less@3.13"></script>
 </head>
-<body>
+<body class="home">
 <?php require_once './modules/header.php' ?>
 
-<h1>THIS IS TEXT</h1>
+
 
 
 	<?php require_once './modules/services.php' ?>
