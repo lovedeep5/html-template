@@ -13,6 +13,8 @@ body {
     color: @color-black;
     font-size: 21px;
     font-family: @font-family-primary;
+    font-weight: @font-weight-light;
+    line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +29,8 @@ p, p + p {
     margin-top: 0px;
 }
 
+
+// Add "btn-link" class to all "<span> <a href="#" class='btn-link'> </span>"
 a.btn-link{
     align-items: center;
     background-color: @color-primary;
@@ -39,11 +43,14 @@ a.btn-link{
     text-decoration: none;
 }
 
+
+// Anchor link, transistion and hover effect
 a.btn-link:hover,
 a.btn-link:active,
 a.btn-link:focus {
     color: @color-white;
 }
+
 
 a{
     transition: 0.5s;
@@ -52,7 +59,13 @@ a:hover,
 a:active,
 a:focus {
     opacity: 0.6;
-    
+}
+
+// Add Class Hover To Elements, wherever we need to reduce the opacity of element on hover
+.hover:hover,
+.hover:active,
+.hover:focus{
+    opacity: 0.65;
     
 }
 
