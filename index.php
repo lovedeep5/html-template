@@ -10,9 +10,28 @@
 </head>
 <body class="home">
 <?php require_once './modules/header.php' ?>
-
-
-
+<div class="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+			<h1>Heading 1</h1>
+			<hr>
+			<h2>Heading 2</h2>
+			<hr>
+			<h3>Heading 3</h3>
+			<hr>
+			<h4>Heading 4</h4>
+			<hr>
+			<h5>Heading 5</h5>
+			<hr>
+			<h6>Heading 6</h6>
+			<hr>
+			<span> <a href="#" class="btn-link">Learn More</a></span>
+			<hr>
+			</div>
+		</div>
+	</div>
+</div>
 
 	<?php require_once './modules/services.php' ?>
 	<?php require_once './modules/testimonials.php' ?>

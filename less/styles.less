@@ -5,12 +5,18 @@
 @import './modules/testimonials.less';
 @import './modules/footer.less';
 
+*, html {
+    scroll-behavior: smooth;
+}
 body {
+    background-color: @color-white;
+    color: @color-black;
     font-size: 21px;
+    font-family: @font-family-primary;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 2em 0 1.em;
+    margin: 2em 0 1.5em;
 }
 
 p, p + p {
@@ -20,4 +26,27 @@ p, p + p {
 .home h1 {
     margin-top: 0px;
 }
+
+a.btn-link{
+    align-items: center;
+    background-color: @color-primary;
+    color: @color-white;
+    display: inline-flex;
+    font-size: @font-size-19;
+    justify-content: center;   
+    min-height: 46px;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+a{
+    transition: 0.5s;
+}
+a:hover,
+a:active,
+a:focus {
+    opacity: 0.6;
+    
+}
+
 
