@@ -16,7 +16,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin: 2em 0 1.5em;
+    margin: 1em 0 .5em;
 }
 
 p, p + p {
@@ -39,6 +39,12 @@ a.btn-link{
     text-decoration: none;
 }
 
+a.btn-link:hover,
+a.btn-link:active,
+a.btn-link:focus {
+    color: @color-white;
+}
+
 a{
     transition: 0.5s;
 }
@@ -46,6 +52,7 @@ a:hover,
 a:active,
 a:focus {
     opacity: 0.6;
+    
     
 }
 

@@ -3,13 +3,13 @@
 
 <head>
 	<title>Template</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-	<link rel="stylesheet/less" type="text/css" href="./less/styles.less" />
-	<script src="//cdn.jsdelivr.net/npm/less@3.13"></script>
+	<?php require_once './modules/head.php' ?>
 </head>
 <body class="home">
+<div class="header-wrapper">
 <?php require_once './modules/header.php' ?>
+<?php require_once './modules/navbar.php' ?>
+</div>
 <div class="content">
 	<div class="container">
 		<div class="row">
@@ -28,6 +28,16 @@
 			<hr>
 			<span> <a href="#" class="btn-link">Learn More</a></span>
 			<hr>
+			</div>
+
+			<div class="col-sm-6">
+			<img src="http://via.placeholder.com/800x600" class="img-fluid">
+			</div>
+			<div class="col-sm-6">
+				<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+				<span>
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolor adipisci saepe quaerat exercitationem. Assumenda provident maiores repudiandae ducimus laborum, sint est id et in voluptates excepturi, facilis vel quae molestiae, tenetur sit? At distinctio consectetur, qui quaerat ea delectus minima ab dolore labore odio dolor architecto voluptatum recusandae amet nam quis iure adipisci natus magni possimus nulla veritatis aliquid!
+				</span>
 			</div>
 		</div>
 	</div>
