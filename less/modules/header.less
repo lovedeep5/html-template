@@ -1,11 +1,12 @@
 @import "../global-variables.less";
 @import './custom.less';
 
-.header-wrapper{
+.header-wrapper {
     position: relative;
     box-shadow: 0px 5px 10px fade(@color-black, 15%);
 }
-.header-wrapper .header-1{
+
+.header-wrapper .header-1 {
     padding: 10px 0px;
 }
 
@@ -26,17 +27,30 @@
 
 
 
-@media (min-width:768px){
-    .header-1 .header-logo-link{
+@media (min-width:768px) {
+    .header-1 .header-logo-link {
         display: inline-block;
     }
-
-    .header-1 .header-request-btn{
-    margin-right: 20px;
-    }
-    .header-1 .header-phone{
-        
-    }
-
     
+    .header-1 .header-request-btn {
+        margin-right: 20px;
+    }
+
+    .header-1 .header-phone {
+        font-size: @font-size-21;
+        font-weight: @font-weight-bold;
+
+
+    }
+
+    .header-1 .header-phone a {
+        color: @color-black;
+        display: inline-flex;
+        justify-content: center;
+        min-height: 46px;
+        padding: 0px 15px;
+        text-decoration: none;
+    }
+
+
 }
