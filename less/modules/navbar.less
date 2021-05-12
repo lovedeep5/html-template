@@ -1,5 +1,15 @@
 @import "../global-variables.less";
-@import './custom.less';
+@import "./custom.less";
+.navbar {
+  font-size: @font-size-18;
+  font-weight: @font-weight-regular;
+}
 
+@media (min-width: 768px) {
+}
 
-
+@media (min-width: 992px) {
+  .navbar-brand {
+    display: none;
+  }
+}
