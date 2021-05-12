@@ -3,6 +3,46 @@
 .navbar {
   font-size: @font-size-18;
   font-weight: @font-weight-regular;
+  background: @color-white;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand {
+  line-height: 50px;
+  padding: 0 0 0 15px;
+}
+.navbar-nav {
+  padding-bottom: 15px;
+  border-top: 1px solid fade(@color-black, 20%);
+}
+.navbar-toggler {
+  padding: 0 15px 0 0;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.nav-item {
+  padding: 0px 15px;
+}
+.dropdown-menu {
+  display: block;
+  height: 0px;
+  overflow: hidden;
+  padding: 0px;
+  border: none;
+}
+.dropdown-menu.show {
 }
 
 @media (min-width: 768px) {
